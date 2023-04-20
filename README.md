@@ -102,27 +102,38 @@ df.head(10)
 
 ![](aaa1.png)
 
-![]()
+![](aaa2.png)
 
-![]()
+![](aaa3.png)
 
-![]()
+![](aaa4.png)
 
-![]()
+![](aaa5.png)
 
-![]()
+![](aaa6.png)
 
-![]()
+![](aaa7.png)
 
-![]()
+![](aaa8.png)
 
-![]()
+![](aaa9.png)
 
-![]()
+![](aaa10.png)
 
-![]()
+![](aaa11.png)
 
-![]()
+![](aaa12.png)
 
-![]()
+![](aaa13.png)
+
+![](aaa14.png)
+
+![](aaa15.png)
+
+![](aaa16.png)
+
+![](aaa17.png)
+
+# RESULT
+    Thus the program for Feature Generation is executed successfully.
 
