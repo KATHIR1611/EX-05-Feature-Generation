@@ -100,6 +100,8 @@ df.head(10)
 
 # OUPUT
 
+### Data.csv 
+
 ![](aaa1.png)
 
 ![](aaa2.png)
@@ -110,6 +112,8 @@ df.head(10)
 
 ![](aaa5.png)
 
+### Encoding.csv 
+
 ![](aaa6.png)
 
 ![](aaa7.png)
@@ -119,6 +123,8 @@ df.head(10)
 ![](aaa9.png)
 
 ![](aaa10.png)
+
+### Titanic.csv
 
 ![](aaa11.png)
 
