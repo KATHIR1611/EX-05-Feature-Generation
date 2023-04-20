@@ -21,6 +21,9 @@ Save the data to the file
 
 # CODE
 
+Developed by:Kathirvelan.K
+Register Number:212221220026
+
 ### Data.csv
 ```
 import pandas as pd   
