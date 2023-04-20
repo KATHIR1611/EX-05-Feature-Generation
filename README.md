@@ -21,7 +21,7 @@ Save the data to the file
 
 # CODE
 
-###Data.csv
+### Data.csv
 ```
 import pandas as pd   
 import seaborn as sbn 
@@ -46,7 +46,7 @@ df = pd.get_dummies(df, prefix=['Ord_1'], columns=['Ord_1'])
 df.head(10)
 ```
 
-###Encoding.csv
+### Encoding.csv
 ```
 import pandas as pd 
 import seaborn as sbn 
@@ -66,7 +66,7 @@ data = pd.get_dummies(df, prefix=['bin_2'], columns=['bin_2'])
 data.head(10)
 ```
 
-###Titanic.csv
+### Titanic.csv
 ```
 import pandas as pd 
 import seaborn as sbn 
