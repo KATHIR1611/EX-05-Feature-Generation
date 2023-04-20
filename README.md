@@ -52,10 +52,12 @@ import pandas as pd
 import seaborn as sbn 
 data=pd.read_csv("/content/Encoding Data.csv") 
 data.info() 
-data.isnull().sum() from sklearn.preprocessing import LabelEncoder 
+data.isnull().sum() 
+from sklearn.preprocessing import LabelEncoder 
 le = LabelEncoder() data['ord_2'] = le.fit_transform(data['ord_2']) 
 sbn.set(style ="darkgrid") 
-sbn.countplot(data['ord_2']) from sklearn.preprocessing import OneHotEncoder 
+sbn.countplot(data['ord_2'])
+from sklearn.preprocessing import OneHotEncoder 
 en = OneHotEncoder() 
 en = en.fit_transform(data[['nom_0']]).toarray() 
 encoded_colm = pd.DataFrame(en) 
@@ -76,11 +78,13 @@ dt.isnull().sum()
 dt['Age']=dt['Age'] . fillna(dt ['Age'].mean()) 
 dt ['Cabin']=dt['Cabin']. fillna(dt['Cabin']. mode() [0]) 
 dt ['Embarked']=dt['Embarked'] . fillna(df ['Embarked'].mode( )[0]) 
-dt.isnull().sum( ) from sklearn.preprocessing import LabelEncoder 
+dt.isnull().sum( ) 
+from sklearn.preprocessing import LabelEncoder 
 lc = LabelEncoder() 
 df['Sex'] = lc.fit_transform(df['Sex']) 
 sbn.set(style ="darkgrid") 
-sbn.countplot(df['Sex']) from sklearn.preprocessing import OneHotEncoder 
+sbn.countplot(df['Sex']) 
+from sklearn.preprocessing import OneHotEncoder 
 enc= OneHotEncoder() 
 enc= enc.fit_transform(dt[['Name']]).toarray() 
 encoded_colm = pd.DataFrame(enc) 
