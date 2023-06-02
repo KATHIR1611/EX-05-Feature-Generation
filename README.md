@@ -176,5 +176,5 @@ df.head(10)
 ![](aaa17.png)
 
 # RESULT
-    Thus the program for Feature Generation is executed successfully .
+   Thus the program for Feature Generation is executed successfully .
 
